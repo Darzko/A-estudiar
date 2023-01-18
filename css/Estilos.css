@@ -1,0 +1,19 @@
+section{
+    font-family:'Roboto Mono', monospace;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+body{
+    background-image: url(https://cdn.discordapp.com/attachments/990023696561356820/1022350357650747483/Boss_rush_de_mierda-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: aquamarine;
+}
+
+.paraponerpapu{
+    font-weight: bold;
+    color: black;
+}
