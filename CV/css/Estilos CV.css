@@ -1,0 +1,156 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto Mono', monospace;
+}
+
+body{
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.Contenedor
+{
+ position: relative;
+ width: 100%;
+ max-width: 1000px;
+ min-height: 1000px;
+ margin: 50px;
+ background: white;
+ display: grid;
+ grid-template-columns: 1fr 2fr;
+ box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+.Contenedor .Lado_izquierdo
+{
+    position: relative;
+    background: rgb(21, 21, 49);
+    padding: 40px;
+}
+.textoPerfil
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+.textoPerfil .cajaImagen
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.textoPerfil .cajaImagen img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.textoPerfil h2
+{
+    color: white;
+    font-size: 1,5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1,4em;
+}
+.textoPerfil h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+
+}
+.infoPersona
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+.infoPersona h1
+{
+    color: white;
+    text-align: center;
+}
+.infoPersona h2
+{
+    color: white;
+    font-size: 1,5em;
+    margin-top: 20px;
+    font-weight: 600;
+    line-height: 1,4em;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+    
+}
+.infoPersona2
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+.infoPersona2 h1
+{
+    color: white;
+    text-align: center;
+}
+.infoPersona2 h2
+{
+    color: white;
+    font-size: 1,5em;
+    margin-top: 20px;
+    font-weight: 600;
+    line-height: 1,4em;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+    
+}
+.infoPersona2 h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+
+}
+
+#boton{
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+.Contenedor .Lado_derecho
+{
+    position: relative;
+    background: white;
+    padding: 40px;
+}
+
+.informacionContacto{
+    color: black;
+    font-weight: bold;
+    font-size: 1,5em;
+    margin-top: 20px;
+    font-weight: 600;
+    line-height: 1,4em;
+}
+
